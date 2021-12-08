@@ -190,7 +190,7 @@ input:checked + .slider:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 80vh;
 }
 
 .hero__content {
@@ -392,10 +392,6 @@ footer {
     flex-wrap: wrap;
     line-height: 2.3rem;
     margin-top: -10px;
-  }
-
-  .hero {
-    height: 55vh;
   }
 
   .hero__content {

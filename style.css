@@ -390,11 +390,12 @@ footer {
   .header__container {
     flex-direction: column;
     flex-wrap: wrap;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
+    margin-top: -10px;
   }
 
   .hero {
-    align-items: top;
+    height: 55vh;
   }
 
   .hero__content {

@@ -395,9 +395,13 @@ footer {
     margin-top: -10px;
   }
 
+  .hero {
+    height: 80vh;
+  }
+
   .hero__content {
     font-size: 1.5rem;
-    margin-top: -12rem;
+    margin-top: -14rem;
   }
 
   .about,

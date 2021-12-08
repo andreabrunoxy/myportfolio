@@ -198,6 +198,7 @@ input:checked + .slider:before {
   margin: 0 auto;
   color: white;
   font-size: 2rem;
+  margin-top: -2rem;
 }
 
 .profile-photo {
@@ -396,6 +397,7 @@ footer {
 
   .hero__content {
     font-size: 1.5rem;
+    margin-top: -12rem;
   }
 
   .about,

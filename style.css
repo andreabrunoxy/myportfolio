@@ -395,6 +395,13 @@ footer {
   .hero__content {
     font-size: 1.5rem;
   }
+
+  .about,
+  .projects,
+  .contacts {
+    margin-top: 120px;
+    padding-top: 120px;
+  }
 }
 
 /*--DARK MODE--*/

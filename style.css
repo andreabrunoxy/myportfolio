@@ -267,6 +267,7 @@ input:checked + .slider:before {
 
 .about__logo {
   padding: 1rem;
+  border-radius: 50px;
 }
 
 hr {
@@ -303,7 +304,7 @@ hr {
   margin: 0 1rem;
   border-radius: 0.5rem;
   box-shadow: 2px 3px 1rem rgba(28, 28, 44, 0.3);
-  border: 1px solid #505050;
+  border: 1px solid #cacaca;
   line-height: 1.5rem;
 }
 
@@ -367,6 +368,10 @@ footer {
   padding-top: 80px;
 }
 
+.contacts-link {
+  padding-inline-start: 10px;
+}
+
 .contacts-link li {
   list-style-type: none;
   text-align: left;
@@ -409,6 +414,10 @@ footer {
   .contacts {
     margin-top: 140px;
     padding-top: 140px;
+  }
+
+  .contacts {
+    padding-bottom: 7rem;
   }
 }
 

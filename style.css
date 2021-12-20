@@ -74,7 +74,6 @@ header {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 22px;
 }
 
 .nav a {
@@ -274,7 +273,7 @@ hr {
   ); /*ripeti auto-fit con una larghezza minima della colonna di 300px e al max 1fr(action) a tutta larghezza*/
   column-gap: 0.5rem;
   row-gap: 2rem;
-  margin-bottom: 6rem;
+  margin: 0 2rem 6rem 2rem;
 }
 
 .img-content {
@@ -400,6 +399,15 @@ footer {
     margin: -160px 2rem 2rem 2rem;
     padding-top: 160px;
     font-size: 18px;
+  }
+
+  .container {
+    margin: 0 auto 6rem auto;
+  }
+
+  .content {
+    padding: 1rem;
+    margin: 0 2rem;
   }
 
   .contacts {
